@@ -1,6 +1,7 @@
 
 import Footer from './Footer'
 import Header from './Header'
+import HeroSection from './HeroSection';
 
 export default function App(){
  
@@ -8,7 +9,9 @@ export default function App(){
     <>
 
      <Header />
-     <div className="flex flex-col justify-center items-center"></div>
+     <div className="flex flex-col justify-center items-center">
+      <HeroSection />
+     </div>
      <Footer />
     </>
   );
