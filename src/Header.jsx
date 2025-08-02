@@ -1,4 +1,4 @@
-import TBLogo from './assets/TaskBolt Logo.svg'
+import TBLogo from './assets/taskbolt logo.svg'
 
 export default function Header() {
     return (
@@ -6,9 +6,9 @@ export default function Header() {
             <div className="container mx-auto flex items-center justify-between gap-x-6">
                 <a href="/">
                     <img
-                        className="h-[60px]"
+                        className="h-[45px]"
                         src={TBLogo}
-                        alt="Lws"
+                        alt="TB"
                     />
                 </a>
             </div>
