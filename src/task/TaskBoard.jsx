@@ -1,4 +1,5 @@
 import SearchTask from "./SearchTask"
+import TaskActions from "./TaskActions";
 export default function TaskBoard() {
      return (
         <section className="mb-20" id="tasks">
