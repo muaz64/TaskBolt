@@ -19,6 +19,25 @@ export default function TaskBoard() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [taskToUpdate, setTaskToUpdate] = useState(null);
 
+
+  function handleAddEditTask(newTask, isAdd) {
+        if (isAdd) {
+            setTasks([...tasks, newTask]);
+        } else {
+            setTasks(
+                tasks.map((task) => {
+                    if (task.id === newTask.id) {
+                        return newTask;
+                    }
+                    return task;
+                })
+            );
+        }
+
+       handleCloseClick();
+    }
+
+
   return (
     <section className="mb-20" id="tasks">
       {showAddModal && (
