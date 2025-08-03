@@ -3,6 +3,8 @@ import { useState } from "react";
 import SearchTask from "./SearchTask";
 import TaskActions from "./TaskActions";
 import TaskList from "./TaskList";
+import AddTaskModal from "./AddTaskModal";
+
 export default function TaskBoard() {
 
      const defaultTask = {
@@ -35,6 +37,11 @@ export default function TaskBoard() {
         }
 
        handleCloseClick();
+    }
+
+  function handleEditTask(task) {
+        setTaskToUpdate(task);
+        setShowAddModal(true);
     }
 
 
