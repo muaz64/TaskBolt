@@ -9,7 +9,7 @@ import NoTasksFound from "./NoTasksFound";
 export default function TaskBoard() {
     const defaultTask = {
         id: crypto.randomUUID(),
-        title: "Learn React Native",
+        title: "Learn React ",
         description:
             "I want to Learn React such thanI can treat it like my slave and make it do whatever I want to do.",
         tags: ["web", "react", "js"],
