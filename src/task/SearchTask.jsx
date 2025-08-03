@@ -1,4 +1,11 @@
+import { useState } from "react";
 export default function SearchTask({onSearch}) {
+
+    const [searchTerm, setSearchTerm] = useState("");
+    function handleClick(event) {
+        event.preventDefault();
+        onSearch(searchTerm);
+    }
 
     return (
         <form>

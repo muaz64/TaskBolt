@@ -2,7 +2,9 @@
 import Footer from './Footer'
 import Header from './Header'
 import HeroSection from './HeroSection';
-import TaskBoard from './task/TaskBoard';
+import TaskBoard from './task/taskBoard';
+
+
 
 
 export default function App(){
