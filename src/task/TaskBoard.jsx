@@ -6,7 +6,7 @@ import TaskActions from "./TaskActions";
 import TaskList from "./TaskList";
 import NoTasksFound from "./NoTasksFound";
 
-export default function TaskBoard() {
+export default function taskBoard() {
     const defaultTask = {
         id: crypto.randomUUID(),
         title: "Learn React ",
