@@ -96,7 +96,7 @@ export default function taskBoard() {
     }
 
     return (
-        <section className="mb-20" id="tasks">
+        <section className="mb-10" id="tasks">
             {showAddModal && (
                 <AddTaskModal
                     onSave={handleAddEditTask}
